@@ -1,0 +1,5 @@
+<Bindings>
+	<Binding name="eqTOGGLE" header="eqTITLE">
+		IlarosQuest:Toggle()
+	</Binding>
+ </Bindings>

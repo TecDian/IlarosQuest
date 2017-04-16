@@ -1,0 +1,10 @@
+﻿## Interface: 30305
+## Title: IlarosQuest QuestGivers
+## Author: Ilaros
+## Notes: Liste mit Questgebern
+## DefaultState: Enabled
+## RequiredDeps: IlarosNote
+
+Locales\locales.xml
+data.lua
+addon.lua

@@ -1,0 +1,7 @@
+## Interface: 30305
+## Title: IlarosQuest Classes
+## Author: Ilaros
+## Notes: Liste mit Weltereignis-Questen
+## LoadOnDemand: 1
+
+World_Events.lua

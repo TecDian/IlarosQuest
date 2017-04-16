@@ -1,0 +1,7 @@
+## Interface: 30305
+## Title: IlarosQuest Battlegrounds
+## Author: Ilaros
+## Notes: Liste mit Questen für Schlachtfelder
+## LoadOnDemand: 1
+
+Battlegrounds.lua
