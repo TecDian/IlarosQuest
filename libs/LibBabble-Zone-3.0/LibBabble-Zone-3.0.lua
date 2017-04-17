@@ -1,6 +1,6 @@
 --[[
 Name: LibBabble-Zone-3.0
-Revision: $Rev: 287 $
+Revision: $Rev: 285 $
 Maintainers: ckknight, nevcairiel, Ackis
 Website: http://www.wowace.com/projects/libbabble-zone-3-0/
 Dependencies: None
@@ -8,7 +8,7 @@ License: MIT
 ]]
 
 local MAJOR_VERSION = "LibBabble-Zone-3.0"
-local MINOR_VERSION = 90000 + tonumber(("$Rev: 287 $"):match("%d+"))
+local MINOR_VERSION = 90000 + tonumber(("$Rev: 285 $"):match("%d+"))
 
 if not LibStub then error(MAJOR_VERSION .. " requires LibStub.") end
 local lib = LibStub("LibBabble-3.0"):New(MAJOR_VERSION, MINOR_VERSION)
@@ -330,7 +330,7 @@ elseif GAME_LOCALE == "deDE" then
 	["Blackrock Mountain"] = "Der Schwarzfels",
 	["Blackrock Spire"] = "Schwarzfelsspitze",
 	["Blackwind Lake"] = "Schattenwindsee",
-	["Blackwing Descent"] = "Pechschwingenabstieg",
+	-- ["Blackwing Descent"] = "",
 	["Blackwing Lair"] = "Pechschwingenhort",
 	["Blade's Edge Arena"] = "Arena des Schergrats",
 	["Blade's Edge Mountains"] = "Schergrat",
@@ -502,7 +502,7 @@ elseif GAME_LOCALE == "deDE" then
 	["The Arcatraz"] = "Die Arkatraz",
 	["The Argent Coliseum"] = "Das Kolosseum der Kreuzfahrer",
 	["The Barrens"] = "Brachland",
-	["The Bastion of Twilight"] = "Bastion des Zwielichts",
+	-- ["The Bastion of Twilight"] = "",
 	["The Black Morass"] = "Der schwarze Morast",
 	["The Blood Furnace"] = "Der Blutkessel",
 	["The Bone Wastes"] = "Die Knochenwüste",
@@ -548,7 +548,7 @@ elseif GAME_LOCALE == "deDE" then
 	["The Vortex Pinnacle"] = "Der Vortexgipfel",
 	["Theramore Isle"] = "Insel Theramore",
 	["Thousand Needles"] = "Tausend Nadeln",
-	["Throne of the Four Winds"] = "Thron der vier Winde",
+	-- ["Throne of the Four Winds"] = "",
 	["Throne of the Tides"] = "Thron der Gezeiten",
 	["Thunder Bluff"] = "Donnerfels",
 	Tirisfal = "Tirisfal",
@@ -611,7 +611,7 @@ elseif GAME_LOCALE == "frFR" then
 	["Blackrock Mountain"] = "Mont Rochenoire",
 	["Blackrock Spire"] = "Pic Rochenoire",
 	["Blackwind Lake"] = "Lac Noirvent",
-	["Blackwing Descent"] = "Descente de l'Aile noire",
+	-- ["Blackwing Descent"] = "",
 	["Blackwing Lair"] = "Repaire de l'Aile noire",
 	["Blade's Edge Arena"] = "Arène des Tranchantes",
 	["Blade's Edge Mountains"] = "Les Tranchantes",
@@ -717,7 +717,7 @@ elseif GAME_LOCALE == "frFR" then
 	Naxxramas = "Naxxramas",
 	Netherstorm = "Raz-de-Néant",
 	["Night Elf Village"] = "Village elfe de la nuit",
-	["Northern Barrens"] = "Les Tarides du nord",
+	["Northern Barrens"] = "Les Tarides dunord",
 	["Northern Stranglethorn"] = "Strangleronce septentrionale",
 	Northrend = "Norfendre",
 	["Obsidia's Perch"] = "Perchoir d'Obsidia",
@@ -783,7 +783,7 @@ elseif GAME_LOCALE == "frFR" then
 	["The Arcatraz"] = "L'Arcatraz",
 	["The Argent Coliseum"] = "Le colisée d'Argent",
 	["The Barrens"] = "Les Tarides",
-	["The Bastion of Twilight"] = "Le bastion du Crépuscule",
+	-- ["The Bastion of Twilight"] = "",
 	["The Black Morass"] = "Le Noir Marécage",
 	["The Blood Furnace"] = "La Fournaise du sang",
 	["The Bone Wastes"] = "Le désert des Ossements",
@@ -829,7 +829,7 @@ elseif GAME_LOCALE == "frFR" then
 	["The Vortex Pinnacle"] = "La cime du Vortex",
 	["Theramore Isle"] = "Île de Theramore",
 	["Thousand Needles"] = "Mille pointes",
-	["Throne of the Four Winds"] = "Trône des quatre vents",
+	-- ["Throne of the Four Winds"] = "",
 	["Throne of the Tides"] = "Trône des marées",
 	["Thunder Bluff"] = "Les Pitons du Tonnerre",
 	Tirisfal = "Tirisfal",

@@ -1,7 +1,0 @@
-## Interface: 30305
-## Title: IlarosQuest Classes
-## Author: Ilaros
-## Notes: Liste mit Gebiets-Questen für die Östlichen Königreiche
-## LoadOnDemand: 1
-
-Eastern_Kingdoms.lua

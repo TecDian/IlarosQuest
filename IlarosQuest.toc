@@ -1,32 +1,51 @@
 ## Interface: 30305
 ## Title: IlarosQuest
 ## Author: Ilaros
-## Version: 1.000
+## Version: 1.001
 ## Notes: Questauflistung mit Status und Questgeber
-## SavedVariables: IlarosQuestDB, IQ2DB
-## SavedVariablesPerCharacter: IlarosQuestDBPC, IQ2DBPC
+## SavedVariables: QuestMarks
+## SavedVariablesPerCharacter: QuestConfig
 
 libs\LibStub\LibStub.lua
+libs\LibQuixote-2.0\lib.xml
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+libs\LibBabble-Zone-3.0\lib.xml
 libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
 libs\AceAddon-3.0\AceAddon-3.0.xml
 libs\AceGUI-3.0\AceGUI-3.0.xml
 libs\AceConfig-3.0\AceConfig-3.0.xml
 libs\AceConsole-3.0\AceConsole-3.0.xml
 libs\AceDB-3.0\AceDB-3.0.xml
-libs\AceHook-3.0\AceHook-3.0.xml
 libs\AceEvent-3.0\AceEvent-3.0.xml
+libs\AceHook-3.0\AceHook-3.0.xml
 libs\AceLocale-3.0\AceLocale-3.0.xml
-libs\LibQuixote-2.0\lib.xml
-libs\LibBabble-Zone-3.0\lib.xml
-libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
 
-locales\locales.xml
-modules.xml
+IlarosQuest_Loc.enUS.lua
+IlarosQuest_Loc.deDE.lua
+
 IlarosQuest.xml
-Core.lua
-zonemenu.lua
-frames.lua
-events.lua
-options.lua
-import.lua
-query.lua
+IlarosQuest.lua
+IlarosQuest_Config.lua
+
+IlarosQuest_Frame.lua
+IlarosQuest_Query.lua
+IlarosQuest_Event.lua
+IlarosQuest_Import.lua
+
+IlarosQuest_Class.lua
+IlarosQuest_Profession.lua
+
+IlarosQuest_EasternKingdoms.lua
+IlarosQuest_Kalimdor.lua
+IlarosQuest_Outland.lua
+IlarosQuest_Northrend.lua
+
+IlarosQuest_Dungeon.lua
+IlarosQuest_Raid.lua
+IlarosQuest_Battle.lua
+IlarosQuest_Holiday.lua
+
+IlarosQuest_Misc.lua
+
+IlarosQuest_List.lua
+IlarosQuest_Start.lua
