@@ -88,7 +88,7 @@ L["IlarosQuest Log"] = "IlarosQuest Log"
 L["Filters"] = "Filter"
 L["Options"] = "Optionen"
 L["Right-click to open the options menu"] = "Rechtsklick um das Optionsmenü zu öffnen"
-L["Toggle Frame"] = "Fenster umschalten"
+L["Toggle Frame"] = "Fenster ein-/ausschalten"
 -- Zonenmenü
 L["Ahn'Qiraj War Effort"] = "Krieg von Ahn'Qiraj"
 L["Alchemy"] = "Alchemie"
